@@ -2,13 +2,16 @@
   --primary-500: #e09370;
   --primary-200: #fbe3c9;
   --neutral-900: #12070b;
+  --neutral-700: #1b1314;
   --neutral-500: #262626;
   --neutral-300: #bdbdbd;
   --neutral-100: #f4f4f4;
+  --bg-100: #fdfdfd;
   --danger-500: #ff4530;
 
   --ff-lora: 'Lora', serif;
   --ff-ubuntu: 'Ubuntu', sans-serif;
+  --ff-poppins: 'Poppins', sans-serif;
 
   --fs-28: 1.75rem;
   --fs-24: 1.5rem;
@@ -30,28 +33,24 @@
   scroll-behavior: smooth;
 }
 
-li {
-  list-style: none;
+body {
+  min-height: 100vh;
+  background-color: var(--bg-100);
+  font-family: var(--ff-ubuntu);
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-button {
+.btn-hamburger {
   border: none;
-  cursor: pointer;
-  font-family: inherit;
 }
 
-input {
-  border: none;
-  font-family: inherit;
+.nav-link {
+  font-family: var(--ff-poppins);
+  color: var(--neutral-700);
 }
 
-img {
+.custom-popover img {
   display: block;
-  width: 100%;
-  height: 100%;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
 }
