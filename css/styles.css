@@ -95,6 +95,28 @@ img {
   margin-bottom: 40px;
 }
 
+.my-32 {
+  margin-block: 32px;
+}
+
+.brand-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 111px;
+}
+
+.brand-logo {
+  max-width: 72px;
+  max-height: 80%;
+  object-fit: contain;
+}
+
+.brand-logo.text {
+  max-width: 128px;
+  height: 17px;
+}
+
 @media screen and (min-width: 992px) {
   .hero-title {
     font-size: 3.273rem;
@@ -110,5 +132,9 @@ img {
   .hero-cta {
     font-size: 15px;
     line-height: 20.949px;
+  }
+
+  .my-lg-64 {
+    margin-block: 64px;
   }
 }
